@@ -1,0 +1,21 @@
+Assignment 1.10/2- Stephanie Engelhardt
+The Basilisk Game (aka a cooler version of the snake game):
+
+For this assignment, I made a snake game that is Harry Potter themed. The game comes with
+a make file, and can be ran using "./main". The background of the story is that you are the
+basilisk within the chamber of secrets, and you have to go around and "petrify" each of the
+different muggle borns by walking over them. To control the basilisk, you can use the
+arrow keys or k (for up), j (for down), h(for left), or l (for right). If you don't move
+within 1/4 of a second, the basilisk will automatically start moving- it moves diagnolly
+way in order to make it harder. If you run over the eggs following you or if you go out of
+bounds (by going onto the tiles marked "X", you die. Whenever you die or if you win, there
+is ASCII art displayed. In addition, there is ASCII art at the beginning of the game with an
+option to go to the instructions page. When you pick up a new egg, the program picks from a
+random list of muggle born names from Harry Potter and tells you who you petrified on the 
+right hand side of the chamber. That message stays there until the next time you petrify
+someone. I used our professors code for the io_queue messages (which is commented within the
+code that I used it above the functions I used). I also have colors within the project 
+(green to represent the basilisk and blue for the title 'chamber of secrets'). Within my 
+code I use something similar as the dungeon type in previous assignments for the map within
+this project and then I have classes for the eggs and the snake. The muggles are placed 
+randomly throughout the chamber, as well as the basilisk's starting position. 

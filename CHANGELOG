@@ -1,0 +1,38 @@
+Basilisk Game
+By Stephanie Engelhardt
+
+04/16/2017:
+-Came up with the game idea
+-Began to work out the different classes I would need: a map, eggs, and a snake
+-Made the .cpp files for a map, a snake, and a main, put the egg class within the snake.h
+file because it was very small and didn't need its own file
+
+04/17/2017:
+-Initialized the map and randomly put the muggle borns and the basilisk's starting position
+within it
+-Used ncurses to allow user input for to move the basilisk, it goes over the egg and removes 
+it from the map, but doesn't make it follow the basilisk yet [the eggs are called "traps" 
+before they are picked up]
+
+04/18/2017:
+-Made ASCII art for the beginning of the game as well as an instructions page that can
+be viewed from the beginnning of the game. 
+-Added an old position of x and y to the snake class in order to know where to go when
+a user doesn't input anything-- I go diagonally based off of their movement, but I'm not
+sure yet how to make it so the game doesn't stop to wait for the user input. 
+
+04/19/2017:
+-Found out about the select function in order to not wait for user input. I found this in the
+io.cpp file from the dungeon project and used this to implement my own code. This allows my
+automatic movement to begin working. 
+-Got the eggs to start to follow the snake using the snake's position (not the previous 
+position because I move the eggs first), and then move the other eggs within the vector to
+the position of the egg before it in line. 
+
+04/20/2017:
+-Added a table of the different muggle borns to the map.cpp file
+-Made ASCII art for the victory and losing pages
+
+04/21/2017:
+-Added colors to the Basilisk and following eggs as well as the title on the chamber
+-Added queue messages using the code given from the previous assignment. 
