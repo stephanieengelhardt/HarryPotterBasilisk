@@ -1,8 +1,6 @@
-Assignment 1.10/2- Stephanie Engelhardt
 The Basilisk Game (aka a cooler version of the snake game):
 
-For this assignment, I made a snake game that is Harry Potter themed. The game comes with
-a make file, and can be ran using "./main". The background of the story is that you are the
+The game comes with a make file, and can be ran using "./main". The background of the story is that you are the
 basilisk within the chamber of secrets, and you have to go around and "petrify" each of the
 different muggle borns by walking over them. To control the basilisk, you can use the
 arrow keys or k (for up), j (for down), h(for left), or l (for right). If you don't move
